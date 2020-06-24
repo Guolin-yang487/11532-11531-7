@@ -68,13 +68,6 @@ basic.forever(function () {
                 basic.pause(1000)
                 stop()
             } else {
-                basic.showLeds(`
-                    . . # . .
-                    . . # . .
-                    . . # . .
-                    . . # . .
-                    . . # . .
-                    `)
                 forward()
                 basic.pause(100)
             }
